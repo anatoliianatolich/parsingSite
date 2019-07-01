@@ -1,9 +1,11 @@
-const routers = require('expressjs').Router();
+const router = require('express');
+const routers = router.Router();
 const parseRozetka = require('./method/parseRozetka');
 
+
 routers
-    .get('/', mainPage)
-    .get('/parseRozetka', parseRozetka)
+
+    // .get('/parseRozetka', parseRozetka)
 
 
 module.exports = routers;

@@ -9,8 +9,6 @@ const parseRozetka = async (req, res, next) => {
     console.log(page.content());
     await page.screenshot({path: 'screenshot.png'});
 
-
-
     await browser.close();
 };
 
