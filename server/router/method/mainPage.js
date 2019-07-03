@@ -1,5 +1,5 @@
 const mainPage = (req, res, next) => {
-    res.render('mainPage', {
+    res.render("mainPage", {
         title: "Rozetka"
     })
 }
